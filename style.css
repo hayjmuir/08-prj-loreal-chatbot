@@ -11,6 +11,7 @@ body {
   color: #333;
   display: flex;
   justify-content: center;
+  background-color: #f8f8f8; /* Light background for elegance */
 }
 
 .page-wrapper {
@@ -21,13 +22,24 @@ body {
 /* header */
 .site-header {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .site-title {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 10px;
+  color: #000; /* Black for a bold, professional look */
+}
+
+/* Make the logo responsive */
+.site-logo {
+  max-width: 100%; /* Ensure the logo doesn't exceed the container width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 150px; /* Optional: Limit the maximum height of the logo */
+  display: block;
+  margin: 0 auto; /* Center the logo horizontally */
 }
 
 /* chat window */
@@ -37,12 +49,12 @@ body {
 
 .chat-window {
   height: 360px;
-  border: 1px solid #000;
+  border: 1px solid #d4af37; /* Gold border for luxury */
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
   overflow-y: auto;
-  background: #fafafa;
+  background: #ffffff; /* White background for clarity */
   white-space: pre-line;
 }
 
@@ -53,11 +65,11 @@ body {
 }
 
 .msg.user {
-  color: #000;
+  color: #000; /* Black for user messages */
 }
 
 .msg.ai {
-  color: #666666;
+  color: #666666; /* Gray for AI messages */
 }
 
 /* input row */
@@ -75,14 +87,14 @@ body {
 }
 
 .chat-form input:focus {
-  outline: 2px solid #000;
+  outline: 2px solid #d4af37; /* Gold outline for focus */
   outline-offset: 2px;
 }
 
 .chat-form button {
   font-size: 18px;
-  background: #000;
-  color: #fff;
+  background: #000; /* Black button for contrast */
+  color: #fff; /* White text for readability */
   border: none;
   padding: 12px;
   width: 48px;
@@ -99,11 +111,11 @@ body {
 }
 
 .chat-form button:hover {
-  background: #666666;
+  background: #d4af37; /* Gold hover effect for luxury */
 }
 
 .chat-form button:focus {
-  outline: 2px solid #000;
+  outline: 2px solid #d4af37; /* Gold outline for focus */
   outline-offset: 2px;
 }
 
@@ -134,10 +146,10 @@ body {
 
 .site-footer a {
   margin: 0 8px;
-  color: #000;
+  color: #000; /* Black for links */
   text-decoration: none;
 }
 
 .site-footer a:hover {
-  color: #666666;
+  color: #d4af37; /* Gold hover effect for links */
 }
